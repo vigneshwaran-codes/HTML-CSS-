@@ -1,0 +1,983 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body > header > main > nav{
+    width: 100%;
+}
+
+.card{
+    width: 18rem;
+}
+
+.card{
+    margin:40px ;
+    padding:25px 30px ;
+    background-color: #fff;
+    box-shadow: rgb(33 33 33 / 6%) 0px 4px 24px 5px;
+    border-radius: 8px;
+}
+.card h4{
+    text-align: center;
+}
+
+.card p{
+    padding: 0 10px;
+}
+.card i{
+  display: block;
+  font-size: 46px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.card:hover{
+    margin-top: 25px;
+    transition: all 1s;
+}
+.title-works{
+    margin-bottom: 25px;
+}
+
+.card-1{
+    margin:40px ;
+    padding:10px 30px ;
+    background-color:#fff;
+    box-shadow: rgb(33 33 33 / 6%) 0px 4px 24px 5px;
+    border-radius: 12px;
+    text-align: center;
+}
+.card-1 p{
+    padding: 0 10px;
+}
+.card-1 i{
+  display: block;
+  font-size: 40px;
+  color:#201E9C;
+  margin-bottom: 5px;
+}
+.card-1:hover{
+    margin-right: 25px;
+    transition: all 1s;
+}
+
+.container-1{
+    background-color: #201E9C;
+}
+.company-testm{
+    margin-top: 40px;
+    text-align: center;
+}
+.card-2{
+    margin:40px ;
+    padding:5px 6px ;
+    background-color:#fff;
+    box-shadow: rgb(33 33 33 / 6%) 0px 4px 24px 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+.card-2:hover{
+    margin-right: 25px;
+    transition: all 1s;
+}
+
+.fun-facts-boxs{
+	display: inline-block;
+	width:19%;
+	padding:10px 10px;
+}
+
+.fun-facts-title{
+	font-size:16px;
+	font-weight:400;
+}
+
+.fun-facts-title span{
+	font-size:26px;
+	line-height:40px;
+	font-weight:700;
+	font-style:normal;
+	color:#071e55;
+	font-family: 'Nunito', sans-serif;
+}
+
+.fun-facts-box i{
+	display: block;
+	margin-bottom: 10px;
+	font-size:40px;
+	line-height:60px;
+	color: #071e55;
+}
+
+.fun-facts-box.green i{
+	color: #27b36a;
+}
+
+.fun-facts-box.blue i{
+	color: #1e90ff;
+}
+
+.fun-facts-box.red i{
+	color: #fc6a3f;
+}
+
+.fun-facts-box.yellow i{
+	color: #fe9c24;
+}
+
+.team-item{
+	padding: 10px 25px 40px 25px;
+    text-align: center;
+    transition: all 1s;
+	border-radius: 0 0 8px 8px;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.team h3{
+    margin-top: 40px;
+}
+
+.team-item h4{
+	margin:20px 0 1px 0!important;
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+}
+
+.team-info {
+	display: block;
+}
+
+.team-info p{
+	color:#acacac;
+	font-style:italic;
+}
+
+.team-img{
+	border-radius: 8px 8px;
+    width: 200px;
+}
+
+#ourteam img{
+    width: 340px;
+    margin-top: 30px;
+}
+
+ul.team-icon {
+	margin: 25px 0 0 0;
+}
+
+ul.team-icon li{
+	display: inline-block;
+	margin:0 3px;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+ul.team-icon li a{
+	margin: 0;
+	display: inline-block;
+	padding: 8px 8px;
+	width: 36px;
+	height: 36px;
+	font-size: 18px;
+	line-height: 18px;
+	background-color: #fff;
+	border-radius: 50%;
+	color:#fff;
+}
+
+ul.team-icon li a.twitter{
+	background-color: #4099ff;
+}
+
+ul.team-icon li a.pinterest{
+	background-color: #C92228;
+}
+
+ul.team-icon li a.facebook{
+	background-color: #3b5998;
+}
+
+ul.team-icon li a.dribble{
+	background-color: #ea4c89;
+}
+
+.team-icon li a:hover{
+	color:#dedede;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+#accordion{
+    max-width: 600px;
+    margin:auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+#accordion ul{
+    text-align: left;
+}
+#accordion h2{
+  color: #fff;
+  font-family: 'hm_light', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 34px;
+  padding: 15px 15px 0;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  display: block;
+  margin:0;
+  cursor: pointer;
+  transition: .2s;
+}
+#accordion p{
+    color: #fff;
+    text-align: left;
+    font-family:'hm_light', sans-serif;
+    font-size:14px;
+    line-height: 1.45;
+    position: relative;
+    overflow:  hidden;
+    max-height: 250px;
+    will-change: max-height;
+    contain:layout;
+    display: inline-block;
+    opacity: 1;
+    transform: translate(0,0);
+    margin-bottom: 5px 50px 0 15px;
+    transition: .3s opacity, .6s max-height;
+    hyphens: auto;
+    -webkit-hyphens:auto;
+    -ms-hyphens:auto;
+    z-index:2;
+}
+#accordion ul{
+ list-style: none;
+ perspective: 900;
+ padding: 0;
+ margin:0;
+}
+#accordion ul li{
+   position: relative;
+   overflow: hidden;
+   padding: 0;
+   margin:0;
+   background:#071e55;
+   box-shadow: 0 3px 10px -2px rgba(0,0,0,0.1) ; 
+   -webkit-top-highlight-color: transparent;
+   border-radius: 4px;
+}
+
+#accordion ul li + li{
+    margin-top: 15px;
+}
+#accordion ul li:last-of-type {
+    padding-bottom: 0;
+}
+#accordion ul li i{
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 28px;
+    right: 15px;
+}
+#accordion ul li i:before,
+#accordion ul li i:after {
+    content: "";
+    position: absolute;
+    background-color:#f05454;
+    width: 3px;
+    height: 9px;
+}
+#accordion ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+}
+#accordion ul li i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+}
+#accordion ul li input[type=checkbox]{
+    position: absolute;
+    cursor:pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    touch-action: manipulation;
+}
+#accordion ul li input[type=checkbox]:checked ~ h2 {
+    color: #fff;
+}
+#accordion ul li input[type=checkbox]:checked ~ p {
+    margin:0;
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+     
+}
+#accordion ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(-2px,0) rotate(45deg);
+    background: #fff;
+}
+#accordion ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px,0) rotate(-45deg);
+    background: #fff;
+}
+.transition, p, ul li i:before, ul li i:after {
+    transition: all 0.3s;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0px;
+}
+.map-responsive iframe{
+ left: 0px;
+ top: 0px;
+ height: 100%;
+ width: 100%;
+ position: absolute;
+
+}
+
+#home{
+    padding: 20px;
+    margin: 20px;
+}
+#about{
+    padding: 20px;
+    margin: 20px;
+}
+#our team{
+    padding: 20px;
+    margin: 20px;
+}
+#how it works{
+    padding: 20px;
+    margin: 20px;
+}
+#pricing{
+    padding: 20px;
+    margin: 20px;
+}
+#blog{
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+#blog img{
+        width: 210px;
+}
+
+#blog p, #blog h3{
+    text-align: start;
+}
+
+#contact{
+    padding: 20px;
+    margin: 20px;
+}
+.fun-facts{
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 80px;
+    margin-left: 285px;
+}
+#features{
+    margin: 10px;
+    padding: 10px;
+}
+.card-blog{
+    padding: 20px;
+}
+.section-grey{
+    background-color: #f4f4f4;
+}
+.section-white{
+    background-color: #fff;
+}
+.footer-grey{
+    background-color: #f4f4f4;
+    margin-top: 30px;
+
+}
+
+/***     Responsive         ***/
+
+    /*** Desktop ***/
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #home img{
+        width: 480px;
+    }
+
+    #about .card{
+        width: 320px;
+        height: 410px;
+        font-size:20px;
+        margin: 5px;
+        padding: 10px;
+    }
+    #about .container{
+      width: 700px;
+      margin: 5px 5px 10px 15px;
+      padding: 20px 15px;
+    }
+
+    #about > div > div > div:nth-child(2) > div{
+        margin-left: -50px;
+    }
+    #about > div > div > div:nth-child(3) > div{
+     margin-left: 50px;
+     margin-right: 10px;
+     padding:-10px;
+ }
+ #about > div > div > div:nth-child(4) > div{
+     margin-left: 150px;
+ }
+
+ #info{
+     width: 100%;
+ }
+ #info img{
+     width:500px;
+ }
+ .fun-facts{
+     margin-right: -10px;
+     margin-left: 180px;
+     padding: 2px 2px 10px 10px;
+ }
+
+ #ourteam img{
+    width: 300px;
+}
+#works{
+     width: 100%;
+     margin: 20px;
+     padding: 10px;
+     font-size: 25px;
+}
+#works h3{
+    font-size: 55px;
+}
+
+#accordion{
+    width: 100%;
+}
+
+#accordion ul{
+    width: 850px;
+}
+#accordion li p{
+    text-align:left;
+    padding:10px;
+}
+#pricing .card{
+    width: 250x;
+    margin-left: -10px;
+}
+#pricing > div > div > div:nth-child(4) > div > div{
+    margin-left: -20px;
+}
+
+#pricing .card p , h1 , .button{
+    text-align: center;
+    padding:2px;
+}
+
+#features{
+    width: 100%;
+}
+
+#ceo img{
+    width: 100%;
+}
+#blog .card{
+    width: 300px;
+    height: 450px;
+    font-size:18px;
+    margin: 5px;
+    padding: 10px;;
+}
+#blog .card-body h3, h6{
+    text-align: left;
+    padding: 2px 2px;
+    margin-left: 4px;
+}
+#blog .container{
+  width: 700px;
+  margin: 5px 5px 10px 15px;
+  padding: 20px 15px;
+}
+
+#blog > div > div > div:nth-child(2) > div{
+    margin-left: -30px;
+}
+#blog > div > div > div:nth-child(3) > div{
+ margin-left: -14px;
+ margin-right: 10px;
+ padding:-10px;
+}
+#blog > div > div > div:nth-child(4) > div{
+ margin-left: -2px;
+}
+
+
+}
+
+       /***  Tablet ***/
+
+@media (min-width: 321px) and (max-width:768px){
+
+    #home{
+        width: 600px;
+    }
+    #home img{
+        width: 400px;
+    }
+    #home h1{
+        text-align: left ;
+    }
+   #about .card{
+       width: 250px;
+       height: 350px;
+       font-size:15px;
+       margin: 5px;
+       padding: 10px;;
+   }
+   #about .container{
+     width: 700px;
+     margin: 5px 5px 10px 15px;
+     padding: 20px 15px;
+   }
+
+   body > section:nth-child(6) > div > div > div:nth-child(2) > img{
+       width: 380px;
+   }
+
+   body > section.section-grey.medium-padding-bottom > div > div:nth-child(2){
+       margin-bottom: 20px;
+       margin-left: -200px;
+   }
+   #about > div > div > div:nth-child(2) > div{
+       margin-left: -60px;
+   }
+   #about > div > div > div:nth-child(3) > div{
+    margin-left: -40px;
+    margin-right: 10px;
+    padding:-10px;
+}
+#about > div > div > div:nth-child(4) > div{
+    margin-left: -18px;
+}
+   #ourteam img{
+       width: 240px;
+   }
+   .team-item{
+       padding:5px;
+   }
+    #works{
+        padding: 20px;
+        margin: 10px; 
+    }
+   #works h3 , #works h4{
+       margin-top: 30px;
+       font-size:45px; 
+   }
+   body > section:nth-child(6){
+       padding-bottom: 35px ;
+   }
+   #accordion{
+        max-width: 690px;
+   }
+
+   #pricing .card{
+       width: 650px;
+       margin-right:5px;
+   }
+
+   #pricing .card p , h1 , .button{
+       text-align: center;
+       padding:5px;
+   }
+   #ceo img{
+       width:370px;
+   }
+
+   #blog .card{
+    width: 220px;
+    height: 480px;
+    font-size:15px;
+    margin: 15px;
+    padding: 10px;;
+}
+#blog > div > div > div:nth-child(2) > div{
+    margin: -40px;
+    margin-top: 18px;
+}
+#blog > div > div > div:nth-child(3) > div{
+    margin-left:-30px;
+}
+#blog > div > div > div:nth-child(4) > div{
+    margin-left: -16px;
+}
+
+#blog img{
+    width: 160px;
+}
+}
+        /*** Mobile Large Screen ***/
+@media (min-width: 425px) and (max-width:767px){
+ #home ,#home img{
+     width:100%;
+ } 
+ 
+ #about{
+     width: 100%;
+ }
+ #about h2{
+     width:50%;
+ }
+ #about .card{
+     width: 60%;
+ }
+ #about > div > div > div:nth-child(3) > div{
+     margin-left:-60px ;
+ }
+ #about > div > div > div:nth-child(4) > div{
+     margin-left: -60px;
+ }
+ #company{
+     width: 100%;
+     display: block;
+ }
+ #company img{
+     width: 100%;
+ }
+ div .fun-facts{
+     margin-left: 180px;
+ } 
+ .fun-facts p {
+    font-size: 10px;
+}
+.fun-facts i{
+    font-size: 30px;
+}
+.fun-facts p span{
+   font-size: 16px;
+}
+
+#our team, #ourteam img{
+    width: 100%;
+}
+#pricing .card{
+    width: 100%;
+}
+#pricing .container .col-md-4{
+    margin-left: -30px;
+} 
+
+#ft > div{
+    width: 100%;
+}
+
+#features {
+    display: block;
+    width: 100%;
+    margin-left: 35px;
+}
+#features div p{
+    height: 150px;
+    width:200px;
+    text-align: left;
+    font-size: 15px;
+}
+#blog .row{
+    width: 100%;
+}
+#blog .card{
+    width: 340px;
+
+}
+#blog .card img{
+    width: 100%;
+}
+#blog .card-body h3,h6,p{
+    text-align: left;
+    margin: 8px;
+}
+#blog .card-body p{
+    text-align: left;
+    font-size: 18px;
+}
+#blog > div > div > div:nth-child(2){
+    margin-left: 10px;
+}
+#blog > div > div > div:nth-child(3) > div{
+    margin-top: 65px;
+}
+#blog > div > div > div:nth-child(3){
+    margin:0px 10px -2px 0px;
+}
+#blog > div > div > div:nth-child(4){
+    margin-left: -18px;
+}
+
+}
+
+/*** Mobile Medium screen ***/
+@media (min-width:375px) and (max-width:424px){
+
+    #home, #home img{
+        width: 100%
+    }
+    #about .card{
+        width: 50%;
+    }
+    #about h2{
+        text-align: left;
+    }
+    #about > div > div > div:nth-child(2) > div{
+        margin-left: -40px;
+    }
+    #about > div > div > div:nth-child(4) > div{
+        margin-left: -40px;
+    }
+    #company{
+        display: block;
+        width: 100%;
+    }
+    #company img{
+        width: 100%;
+    }
+    .team-item{
+        width: 100%;
+    }
+    .fun-facts p {
+        font-size: 14px;
+    }
+    .fun-facts i{
+        font-size: 30px;
+    }
+    .fun-facts p span{
+       font-size: 14px;
+    }
+    div .fun-facts{
+       margin-left: 180px;  
+    }
+    #ourteam, #ourteam img{
+        width:100%;
+    }
+    #pricing .card{
+        width: 320px;
+        margin-left: -7px;
+    }
+    #ft > div{
+        width: 100%;
+    }
+    
+    #features {
+        display: block;
+        width: 100%;
+        margin-left: 35px;
+    }
+    #features div p{
+        height: 180px;
+        width:250px;
+        text-align: left;
+        font-size: 18px;
+    }
+    #blog .card{
+        width: 280px;
+    }
+    #blog > div > div > div:nth-child(2) > div{
+        margin-left: -30px;
+    }
+    #blog > div > div > div:nth-child(3) > div{
+        margin-top: 60px;
+    }
+    #blog > div > div > div:nth-child(4) > div{
+        margin-left: -30px;
+    }
+
+}
+    /*** Mobile small screen ***/
+@media (max-width: 320px){
+    #home > div > div > div:nth-child(1) > div > input{
+        width: 100%;
+    }
+    #home > div > div > div:nth-child(1) > div > div > button{
+        width: 100%;
+        margin: 5px;
+    }
+    #home{
+        width: 100%;
+    }
+
+    #home h1{
+        font-size: 35px;
+    }
+    #home img{
+        width: 250px;
+    }
+    #about .card{
+        margin-left: -36px;
+        margin-bottom: -20px;
+        height: 305px;
+    }
+    #about div.card-body{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .card-1{
+        width: 100%;
+    }
+
+    #company .card-2{
+        width: 100%;
+    }
+    #company .card-2 img{
+        width: 100%;
+    }
+    #info h1{
+        font-size: 30px;
+    }
+    #info p , img{
+        font-size: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+    .company-testm{
+        width: 100%;
+        margin-left: 25px;
+    }
+    #company{
+        margin: 5px;
+        width: 100%;
+    }
+    #company .card-2{
+        margin:6px;
+    }
+    .fun-facts p {
+        font-size: 10px;
+    }
+    .fun-facts i{
+        font-size: 20px;
+    }
+    .fun-facts p span{
+       font-size: 13px;
+    }
+    div .fun-facts{
+       margin-left: -8px;  
+    }
+    div.row{
+        width: 250px;
+    }
+   #ourteam img{
+       width: 300px;
+   }
+   #ourteam .card{
+       width: 100%;
+   }
+   #ourteam > div{
+       width: 300px;
+   }
+   #works .testim-platform{
+       padding: 5px 10px;
+       font-size: 13px;
+   }
+   #pricing{
+       width: 100%;
+   }
+  
+   #pricing .card{
+    width: 250px;
+    height:400px;
+    padding:5px;
+    margin-top: 10px;
+    margin-left: -10px;
+   }
+   #pricing .card-body{
+       width: 100%;
+   }
+   #pricing .card-body h4,h1,p,div,.button{
+       text-align: center;
+       font-size: 12px;
+   }
+   #ft > div{
+       width: 100%;
+   }
+
+   #features {
+       display: block;
+       width: 100%;
+       margin-left: 35px;
+   }
+   #features div p{
+       height: 150px;
+       width:200px;
+       text-align: left;
+   }
+  #blog .card{
+    width: 225px;
+    height: 385px;
+    margin-left: -25px;
+    padding: 4px;
+    text-align: left;
+  }
+  #blog img{
+      width: 150px;
+  }
+  #blog div.card-body{
+      width: 180px;
+      height:250px;
+  }
+  #blog .card-body h3 , h6 , p{
+    font-size: 15px;
+  }
+  #contact > div > div > div:nth-child(2){
+        padding:4px;
+  }
+}
+
+@media (min-width: 561px) and (max-width:1009px){
+    #about{
+        width:100%;
+    }
+    #about .card{
+        width: 100%;
+        height: 100%;
+    }
+    #about .card-body i{
+        width: 100%;
+    }#about .card-body h4{
+        width: 100%;
+    }#about .card-body p{
+        width: 100%;
+        font-size: 12px;
+    }
+    #blog{
+         width: 100%;
+        }
+    #blog .card{
+         width: 100%;
+         height: 100%;
+     }
+
+}
